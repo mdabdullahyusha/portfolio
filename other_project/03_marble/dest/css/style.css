@@ -1,0 +1,258 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto+Condensed:400,700|Roboto+Slab:400,700|Roboto:400,700&display=swap');
+/*Font Link */
+* {
+	margin: 0px;
+	padding: 0px;
+	outline: 0px;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-family: 'Roboto Slab', serif;
+    font-family: 'Roboto', sans-serif;
+}
+ul,ol {
+	list-style: none;
+}
+a, a:hover {
+	text-decoration: none;
+}
+img {
+	border: none;
+	vertical-align: middle;
+}
+h1,h2,h3,h4,h5,h6,p,a,ul,ol,img {
+	margin: 0;
+	padding: 0;
+}
+.container {
+	width: 100%;
+	padding-right: 15px;
+	padding-left: 15px;
+	margin-right: auto;
+	margin-left: auto;
+}
+/*Common CSS End*/
+/*Header Part Start*/
+.header-part {
+	background: #e2e2e2;
+}
+.header-part .logo {
+	font-family: 'Roboto Condensed', sans-serif;
+	font-size: 40px;
+	font-weight: bold;
+	letter-spacing: -1px;
+}
+.header-part .main-menu a{
+	font-family: 'Roboto Condensed', sans-serif;
+	font-size: 16px;
+	font-weight: bold;
+	color: #4e4e4e;
+}
+.navbar-light .navbar-nav .active > .nav-link,
+.navbar-light .navbar-nav .nav-link.active,
+.navbar-light .navbar-nav .nav-link.show,
+.navbar-light .navbar-nav .show > .nav-link 
+{
+	font-family: 'Roboto Condensed', sans-serif;
+	font-size: 16px;
+	font-weight: bold;
+	color: #4e4e4e;
+	transition: all linear 0.3s;
+}
+.navbar-light .navbar-nav .nav-link:focus, 
+.navbar-light .navbar-nav .nav-link:hover {
+    color: #1abb9c;
+}
+.logo {
+	margin: 24px 0px;
+}
+/*Header Part End*/
+/*Hero Part Start*/
+.hero-part {
+	background: url(../img/banner.png) no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+.hero-part .sub-head {
+	font-family: 'Roboto Slab', serif;
+	font-size: 40px;
+	color: #f3f3f3;
+	padding-top: 200px;
+	padding-bottom: 70px;
+}
+.hero-part .sub-head-2 {
+	font-family: 'Roboto Slab', serif;
+	font-size: 36px;
+	color: #a8a8a8;
+	font-weight: bold;
+	padding-bottom: 45px;
+}
+.hero-part .btn {
+	height: 42px;
+	width: 140px;
+	background: #3f8dbf;
+	border-bottom: 3px solid #3678a3;
+	justify-content: center;
+	-ms-align-items: center;
+	align-items: center;
+	text-align: center;
+	margin-bottom: 197px;
+	margin-left: 42%;
+}
+.btn a {
+	font-family: 'Roboto Condensed', sans-serif;
+	font-size: 14px;
+	color: #fff;
+	display: block;
+	justify-content: center;
+	-ms-align-items: center;
+	align-items: center;
+}
+/*Hero Part End*/
+
+/*Option Part Start*/
+.option-part {
+}
+.option-part h3 {
+	font-size: 18px;
+	color: #4e4e4e;
+	padding-bottom: 10px;
+}
+.option-part p {
+	font-size: 14px;
+	color: #616161;
+	padding-bottom: 60px;
+}
+.option-con {
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	justify-content: center;
+}
+.bg-icon1,
+.bg-icon2,
+.bg-icon3,
+.bg-icon4 {
+	height: 90px;
+	width: 90px;
+	border-radius: 50%;
+	margin: 60px 0px 30px;
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	justify-content: center;
+	-ms-align-items: center;
+	align-items: center;
+}
+.bg-icon1 {
+	background: #9d9abf;
+}
+.bg-icon2 {
+	background: #d2514b;
+}
+.bg-icon3 {
+	background: #66a3c6;
+}
+.bg-icon4 {
+	background: #e8c04f;
+}
+.option-part hr {
+	padding-top: 60px;
+}
+/*Option Part End*/
+/*Letest Work Start*/
+.letest-work h3 {
+	font-family: 'Roboto Condensed', sans-serif;
+	font-size: 18px;
+	font-weight: bold;
+	color: #4e4e4e;
+	margin-bottom: 25px;
+}
+.letest-work img {
+	margin-bottom: 25px;
+}
+.letest-work h4 {
+	font-family: 'Roboto Slab', serif;
+	font-size: 18px;
+	font-weight: bold;
+	color: #4e4e4e;
+	margin-bottom: 15px;
+}
+
+.letest-work p {
+	font-family: 'Roboto Slab', serif;
+	font-size: 13px;
+	font-weight: 400;
+	color: #a8a8a8;
+	margin-bottom: 23px;
+}
+.letest-work h5 {
+	font-size: 14px;
+	color: #5c5c5c;
+	line-height: 2;
+	margin-bottom: 55px;
+}
+/*Letest Work End*/
+/*Testimonial Start*/
+.testimonial {
+	background: #efefef;
+}
+.testimonial h3 {
+	font-family: arial;
+	font-size: 100px;
+	color: #a1a1a1;
+	padding-top: 55px;
+}
+.testimonial h4 {
+	font-family: 'Roboto Slab', serif;
+	font-size: 20px;
+	color: #a1a1a1;
+	margin-top: -50px;
+	padding-bottom: 63px;
+}
+/*Testimonial End*/
+/*Footer Start*/
+.footer-part {
+	background: #1d1d1d;
+}
+.footer-part .footer-con {}
+.footer-part .footer-con h3 {
+	font-family: 'Roboto Condensed', sans-serif;
+	font-size: 18px;
+	font-weight: bold;
+	color: #6c6c6c;
+	padding: 50px 0px 25px;
+}
+.footer-part .footer-con p {
+	font-size: 14px;
+	color: #cacaca;
+	padding-bottom: 35px;
+}
+.footer-part .footer-con .address {
+	font-size: 14px;
+	color: #cacaca;
+}
+.footer-part .footer-con .number {
+	font-size: 14px;
+	color: #cacaca;
+	padding-top: 11px;
+}
+.footer-part .footer-con .mail {
+	font-size: 14px;
+	color: #cacaca;
+}
+.footer-part .footer-con span {
+	font-size: 14px;
+	color: #cacaca;
+	margin-bottom: 35px;
+}
+.margin-top- {
+	margin-top: -33px;
+}
+.footer-con .popular {
+	font-size: 14px;
+	color: #cacaca;
+}
+/*Footer End*/

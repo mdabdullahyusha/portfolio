@@ -1,0 +1,142 @@
+@media (max-width: 1400px) {
+	.visit-con {
+		display: none;
+	}
+}
+@media (max-width: 992px) {
+	.about-img .img-overlay {
+		height: 300px;
+	}
+	.logo {
+		width: 330px;
+	}
+	.choose-icon {
+		left: 107px;
+	}
+	 .visit-con {
+	 	display: none;
+	 }
+}
+@media (max-width: 768px) {
+	.main-ul li {
+		padding: 15px 0px;
+	}
+	.about-img .img-overlay {
+		height: 220px;
+	}
+	.about-con h3 {
+		padding-top: 0;
+		font-size: 26px;
+	}
+	.about-con p {
+		font-size: 14px;
+		padding-bottom: 10px;
+	}
+	.about-con .shape {
+		margin-bottom: 5px;
+	}
+	.choose-con h3 {
+		font-size: 18px;
+	}
+	.choose-con p {
+		font-size: 13px;
+	}
+	.choose-icon {
+		left: 70px;
+	}
+	.visit-con {
+		display: none;
+	}
+}
+@media (max-width: 576px) {
+	.main-ul {
+		display: none;
+	}
+	.about-img .img-overlay {
+		height: 340px;
+	}
+	.choose-icon {
+		left: 210px;
+	}
+}
+@media (max-width: 480px) {
+	.slider-part h1 {
+    	font-size: 60px;
+	}
+	.slider-con {
+    	width: 440px;
+    	padding: 100px 0px;
+	}
+	.about-img .img-overlay {
+    	height: 300px;
+	}
+	.choose-icon {
+    	left: 188px;
+	}
+	.footer-con h3 {
+		text-align: center;
+	}
+	.footer-icon {
+		display: -webkit-flex;
+		display: -moz-flex;
+		display: -ms-flex;
+		display: -o-flex;
+		display: flex;
+		justify-content: center;
+	}
+}
+@media (max-width: 320px) {
+	.logo {
+		text-align: center;
+	}
+	.slider-con {
+		width: 300px;
+		padding: 110px 0px;
+	}
+	.slider-con h1 {
+		font-size: 32px;
+	}
+	.slider-con-mail {
+		display: none;
+	}
+	.slider-con p {
+		font-size: 14px;
+	}
+	.btn-part {
+    height: 40px;
+    width: 145px;
+	}
+	.btn-part a {
+		font-size: 14px;
+	}
+	.about-head {
+    padding-top: 35px;
+    padding-bottom: 10px;
+	}
+	.choose-heading h3 {
+		font-size: 32px;
+	}
+	.choose-heading .shape {
+		width: 235px;
+	}
+	.contact-head .shape {
+    width: 190px;
+	}
+	.about-img .img-overlay {
+    height: 194px;
+	}
+	.choose-icon {
+    left: 108px;
+	}
+	.footer-icon {
+		display: -webkit-flex;
+		display: -moz-flex;
+		display: -ms-flex;
+		display: -o-flex;
+		display: flex;
+		justify-content: center;
+	}
+	.footer-con a h3 {
+		text-align: center;
+	}
+}

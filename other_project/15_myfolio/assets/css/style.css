@@ -1,0 +1,266 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700;800&display=swap');
+
+/*Font Link*/
+
+* {
+	margin: 0;
+	padding: 0;
+	outline: 0;
+	font-family: 'Open Sans', sans-serif;
+}
+ul {
+	list-style: none;
+	
+}
+a, a:hover {
+	text-decoration: none;
+	
+}
+.d-flex {
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+}
+.jc-c {
+	justify-content: center;
+}
+.jc-fe {
+	justify-content: flex-end;
+}
+h1, h2, h3, h4, h5, h6, p {
+	margin: 0;
+	padding: 0;
+}
+.ai-c {
+	-ms-align-items: center;
+	align-items: center;
+}
+/*Common CSS End*/
+
+/*Header Part Start*/
+/*Header Part End*/
+.nav_part {
+	background: #02918c;
+	padding: 15px 0;
+}
+.menu_ul {
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	justify-content: flex-end;
+}
+.menu {
+	padding-top: 15px;
+}
+.menu_ul li {
+	padding: 0px 15px 0;
+}
+.logo {
+	padding-top: 10px;
+}
+.menu_ul li a {
+	font-size: 14px;
+	color: #fff;
+	font-weight: bold;
+}
+.slider_part {
+	background: url(../img/bnr.jpg) no-repeat;
+	-webkit-background-size: cover;
+	background-size: cover;
+	background-position:bottom center;
+}
+.slider_con h3 {
+	font-size: 30px;
+	color: #fff;
+	padding-top: 150px;
+}
+.slider_con h1 {
+	font-size: 68px;
+	color: #fff;
+	font-weight: bold;
+	padding: 10px 0;
+}
+.slider_con p {
+	font-size: 18px;
+	color: #fff;
+}
+.slider_con img {
+	padding: 50px 0;
+}
+.slider_btn {
+	width: 195px;
+	height: 47px;
+	background: #cfc91d;
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	justify-content: center;
+	-ms-align-items: center;
+	align-items: center;
+	margin-bottom: 55px;
+}
+.slider_btn a {
+	font-size: 14px;
+	color: #0b1016;
+	letter-spacing: 2px;
+	font-weight: bold;
+}
+/* Header Part End */
+
+/* About Part Start */
+.about_part {
+	padding: 50px 0;
+}
+.about_head h3,
+.service_head h3 {
+	font-size: 48px;
+	color: #02918c;
+	font-weight: 800;
+}
+.about_head {
+	padding-bottom: 60px;
+}
+.about_head p,
+.service_head p {
+	font-size: 16px;
+	color: #7e8287;
+}
+.about_head p span {
+	font-size: 18px;
+	font-weight: 700;
+}
+.about_con {
+	padding: 30px 0;
+}
+.about_con h4 {
+	font-size: 18px;
+	color: #7e8287;
+	font-weight: 600;
+	padding: 15px 0;
+}
+.about_con p,
+.service_con p {
+	font-size: 14px;
+	color: #7e8287;
+}
+.about_con_2 {
+	border-right: 1px solid #d9dbdb;
+	border-left: 1px solid #d9dbdb;
+}
+.about_con_3 {
+	border-right: 1px solid #d9dbdb;
+}
+/* About Part End */
+
+/* Service Part Start */
+.service_part {
+	background: url(../img/service_img.jpg) no-repeat;
+	-webkit-background-size: cover;
+	background-size: cover;
+	background-position: center;
+	padding: 50px 0;
+}
+.service_head .p_1 {
+	padding: 15px 0;
+}
+.service_con_main {
+	padding-top: 30px;
+}
+.service_con h4 {
+	font-size: 18px;
+	color: #7e8287;
+	font-weight: 600;
+	padding: 9px 0;
+}
+.service_con p {
+	font-size: 14px;
+	color: #7e8287;
+}
+/* Service Part End */
+
+/* Portfolio Part Start */
+.port_img {
+	position: relative;
+}
+.port_img_con {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	width: 85%;
+	height: 85%;
+	background: rgba(2, 145, 140, 0.7);
+	padding:  10px;
+	transition: .5s ease-in-out;
+	opacity: 0;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+}
+.port_img:hover .port_img_con {
+	opacity: 1;
+}
+.port_img_con_inner h3 {
+	font-size: 18px;
+	color: #fff;
+	font-weight: 700;
+}
+.port_img_con_inner p {
+	font-size: 14px;
+	color: #fff;
+	padding-top: 10px;
+}
+/* Portfolio Part End */
+
+/* Contact Part Start */
+.contact_head .p_1 {
+	padding: 10px 0;
+}
+/* Contact Part End */
+
+/* Message Part Start */
+.message_part {
+	background: #0b0b0b;
+	padding: 50px 0;
+}
+.message_con {
+	text-align: center;
+}
+.name_input,
+.message_input {
+	width: 635px;
+	background: transparent;
+	border: none;
+	border-bottom: 1px solid #7e8287;
+	font-size: 16px;
+	color: #7e8287;
+	text-align: center;
+	padding: 10px 0;
+	margin-bottom:30px ;
+}
+.message_input {
+	width: 920px;
+}
+.message_btn {
+	margin-top: 30px;
+}
+/* Message Part End */
+
+/* Footer Part Start */
+.footer_part {
+	padding: 25px 0;
+	background: #000;
+}
+.footer_con p {
+	font-size: 14px;
+	color: #7e8287;
+	font-weight: 600;
+}
+/* Footer Part End */

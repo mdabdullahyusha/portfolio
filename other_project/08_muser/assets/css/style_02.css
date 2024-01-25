@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css?family=Dosis:300,400,500,600,700&display=swap');
+ * {
+ 	font-family: 'Dosis';
+ }
+#demo_02_header_part {
+    background: url(../img/demo_02/home.jpg) no-repeat;
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-position: center;
+}
+.demo_02_header_con h1,
+.demo_02_header_con h2 {
+    color: #fff;
+}
+.demo_01_header_btn_1 {
+	margin-right: 100px;
+}
+.demo_01_header_btn_2 {
+	background: #fff;
+}
+#demo_01_about_part,
+#demo_01_partnar_part {
+	background: #fff;
+}
+.about_img_shape,
+.future_img_shape {
+	background: rgba(0,0,0,0.4);
+}
+.demo_01_about_con,
+.demo_01_skill_con {
+	background: #fff;
+	box-shadow: 0 0 20px rgba(0, 0, 0, 0.30);
+}
+.demo_01_about_con h3,
+.demo_01_countdown_con h3,
+.demo_01_portfolio_head h3,
+.demo_01_skill_con h3,
+.demo_01_work_head h3,
+.demo_01_work_con_h3,
+.demo_01_work_con h3,
+.demo_01_price_head h3,
+.demo_01_price_con h4,
+.demo_01_price_con p {
+	color: #333;
+}
+.demo_01_about_con p,
+.demo_01_countdown_con h4,
+.demo_01_skill_con p {
+	color: #555;
+	letter-spacing: 2px;
+}
+#demo_01_countdown_part,
+#demo_01_work_part {
+	background: #fff;
+}
+#demo_01_portfolio_part,
+#demo_01_price_part {
+	background: #fff;
+}
+.demo_01_portfolio_btn:hover {
+	background: #000;
+	border: none;
+}
+.demo_01_portfolio_btn:hover a {
+	color: #fff;
+}
+.demo_01_team_head h3,
+.demo_01_team_con h4, 
+.demo_01_team_con p {
+	color: #fff;
+}
+.demo_01_price_con {
+	background: #EEEEEE;
+}
+.bg_dark {
+	background: #333333;
+}
+.bg_dark h4 {
+	color: #fff;
+}
+.bg_dark p {
+	color: #ccc;
+}
+.demo_01_price_btn:hover {
+	background: #000;
+	border: none;
+}
+.demo_01_price_btn:hover a {
+	color: #fff;
+}

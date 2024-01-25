@@ -1,0 +1,106 @@
+@media (max-width: 1200px ) {
+	.causes_img {
+		padding-top: 60px;
+	}
+	.responsive_enti {
+		display: none;
+	}
+}
+
+
+
+@media (max-width: 992px ) {
+	.about_con .responsive_p {
+		display: none;
+	}
+	.about_img_inner {
+		display: none;
+	}
+	.prevention_con {
+		margin-bottom: 30px;
+	}
+	.symptoms_con.responsive {
+		display: none;
+	}
+	.handwash_con_num {
+		transform: translate(-40%, 40%);
+	}
+}
+
+
+
+@media (max-width: 768px ) {
+	.header_contact_main {
+		display: none;
+	}
+	.slider_con h1 {
+		font-size: 50px;
+	}
+	.slider_con p {
+	font-size: 18px;
+	}
+	.about_part_1 .about_con h5 {
+		font-size: 14px;
+	}
+	.about_part_1 .about_con h3 {
+		font-size: 30px;
+	}
+	.about_part_1 .about_con p {
+		font-size: 14px;
+	}
+	.symptoms_img {
+		display: none;
+	}
+	.faq_con_img {
+		display: none;
+	}
+	.faq_con {
+		text-align: center;
+	}
+	.footer_con,
+	.footer_input {
+		text-align: center;
+	}
+	.foot_icon_main {
+		justify-content: center;
+	}
+}
+
+
+
+@media (max-width: 576px ) {
+	.slider_con h1 {
+		font-size: 40px;
+	}
+	.slider_con p {
+	font-size: 16px;
+	}
+	.about_con {
+		padding-top: 30px;
+	}
+	.footer_input input {
+		display: -webkit-flex;
+		display: -moz-flex;
+		display: -ms-flex;
+		display: -o-flex;
+		display: flex;
+		justify-content: center;
+	}
+}
+
+
+
+@media (max-width: 320px ) {
+	.navbar-brand img {
+		width: 150px;
+	}
+	.slider_con h1 {
+		font-size: 30px;
+	}
+	.slider_con p {
+		font-size: 14px;
+	}
+	.slider_part {
+		padding: 50px 0;
+	}
+}

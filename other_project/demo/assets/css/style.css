@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,500,600,700,800&display=swap');
+/* Google Fonts */
+* {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+a, a:hover {
+    text-decoration: none;
+}
+/* Common CSS End */
+
+/* Header Part Start */
+#header_part {
+    background: #000;
+    padding: 190px 0;
+}
+.header_con h1 {
+    font-size: 65px;
+    font-weight: bold;
+}
+.header_con p {
+    font-size: 13px;
+    color: rgba(0,0,0,0.85);
+    letter-spacing: 3px;
+}
+/* Header Part End */
+
+/* Main Demo Part Start */
+#demo_part {
+    background: #EEEEEE;
+    padding: 100px 0;
+}
+.demo_con {
+    background: #fff;
+    transition: 0.4s;
+    width: 100%;
+    height: 100%;
+}
+.demo_con:hover {
+    box-shadow: 0 15px 25px rgba(0, 0, 0, 0.1);
+    transform: translateY(-8px);
+}
+.demo_con:hover .demo_con_p {
+    font-weight: 600;
+}
+.demo_con a p {
+    padding: 10px 0;
+    font-size: 14px;
+    color: #000;
+    font-weight: 500;
+    letter-spacing: 2px;
+    transition: 0.4s;
+
+}
+/* Main Demo Part End */
+
+/* Footer Part Start */
+#footer_part {
+    padding: 50px 0;
+    background: #000;
+}
+.footer_con p {
+    color: #999;
+    font-size: 14px;
+}
+/* Footer Part End */
